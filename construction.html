@@ -4,212 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construction — Collabera International Limited</title>
+    <title>Construction — Collabera International</title>
     <meta name="description"
         content="Collabera International construction services — commercial build, civil works, project management and fit-out across the UK.">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/collabera.css">
 </head>
 
 <body>
-
-    <div class="mobile-nav-overlay" id="mobileNav">
-        <button class="mobile-nav-close" id="mobileNavClose">&times;</button>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="construction.html">Construction</a>
-        <a href="trading.html">Trading</a>
-        <a href="testimonials.html">Testimonials</a>
-        <a href="contact.html">Contact</a>
+    <aside class="sidebar">
+        <a href="index.html" class="sb-brand">Collabera<br><span class="sb-int">International</span></a>
+        <nav class="sb-nav">
+            <span class="sb-label">Menu</span>
+            <a href="index.html"><span class="sb-dot"></span>Home</a>
+            <a href="about.html"><span class="sb-dot"></span>About</a>
+            <div class="sb-divider"></div>
+            <span class="sb-label">Our Work</span>
+            <a href="construction.html" class="active"><span class="sb-dot"></span>Construction</a>
+            <a href="trading.html"><span class="sb-dot"></span>Trading</a>
+            <div class="sb-divider"></div>
+            <a href="testimonials.html"><span class="sb-dot"></span>Testimonials</a>
+            <a href="contact.html"><span class="sb-dot"></span>Contact</a>
+        </nav>
+        <div class="sb-cta"><a href="contact.html" class="btn btn-lime"
+                style="width:100%; justify-content:center; font-size:0.78rem;">Get in Touch →</a></div>
+        <p class="sb-contact">info@collaberaint.com<br>Co. No. 16050464</p>
+    </aside>
+    <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+    <div class="mobile-overlay" id="mobileOverlay">
+        <span class="mo-tag">Navigation</span>
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <div class="mo-sep"></div>
+        <a href="construction.html">Construction</a><a href="trading.html">Trading</a>
+        <div class="mo-sep"></div>
+        <a href="testimonials.html">Testimonials</a><a href="contact.html">Contact</a>
+        <p class="mo-contact">info@collaberaint.com</p>
     </div>
 
-    <header class="site-header" id="siteHeader">
-        <div class="container">
-            <nav class="nav-inner">
-                <a href="index.html" class="brand">Collabera<br><span>International</span></a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="nav-item">
-                        <a href="#" class="active">Our Businesses</a>
-                        <div class="nav-dropdown">
-                            <a href="construction.html" class="active">Construction</a>
-                            <a href="trading.html">Trading &amp; Distribution</a>
+    <div class="wrapper">
+        <div class="page-intro" data-bg-text="BUILD"
+            style="background-image: url('images/construction_banner.png'); background-size:cover; background-position:center;">
+            <div
+                style="position:absolute;inset:0;background:linear-gradient(to top,var(--black) 30%,rgba(8,9,13,0.7) 100%);">
+            </div>
+            <div class="container">
+                <span class="tag">Division One</span>
+                <h1>Construction</h1>
+                <p class="lead" style="margin-top:16px; max-width:520px;">Commercial construction, civil works, fit-out
+                    and project management across the UK — delivered properly, every time.</p>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="container">
+                <div class="mb-48 fade-up">
+                    <span class="tag">Our Services</span>
+                    <h2>What We Deliver</h2>
+                </div>
+                <div class="service-scroll">
+                    <div class="srv-card fade-up">
+                        <div class="srv-img"><img src="images/construction_banner.png" alt="Commercial Construction">
                         </div>
-                    </li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="nav-toggle" id="navToggle" aria-label="Open menu">
-                    <span></span><span></span><span></span>
-                </button>
-            </nav>
-        </div>
-    </header>
-
-    <div class="page-banner" style="background-image: url('images/construction_banner.png'); padding-top: 72px;">
-        <div class="page-banner-overlay"></div>
-        <div class="page-banner-content container">
-            <span class="eyebrow">Division One</span>
-            <h1>Construction Services</h1>
-        </div>
-    </div>
-
-    <section class="section bg-white">
-        <div class="container">
-            <div class="split-section">
-                <div class="fade-up">
-                    <span class="eyebrow">Our Approach</span>
-                    <h2>Delivered Properly, <em>Every Time</em></h2>
-                    <div class="divider"></div>
-                    <p class="lead">The Collabera construction division takes on commercial projects across the UK,
-                        providing clients with professional project management, reliable delivery and consistent
-                        quality.</p>
-                    <p>We work with commercial developers, property owners, facilities managers and businesses
-                        undergoing refurbishment or growth. Our approach is hands-on, communicative and focused on
-                        outcomes.</p>
-                    <a href="contact.html" class="btn btn-copper mt-24">Discuss a Project</a>
-                </div>
-                <div class="split-img fade-in">
-                    <img src="images/workers.png" alt="Collabera construction team on site">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section bg-cream">
-        <div class="container">
-            <div class="text-center mb-48 fade-up">
-                <span class="eyebrow">What We Offer</span>
-                <h2>Our Construction Services</h2>
-                <div class="divider centered"></div>
-                <p style="max-width:580px; margin:0 auto;">From groundworks to final handover — we manage every aspect
-                    of the build process with care and professionalism.</p>
-            </div>
-            <div class="service-cards">
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/construction_banner.png');">
-                    </div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🏗️</span>
+                        <span class="srv-num">01</span>
                         <h4>Commercial Construction</h4>
                         <p>Office buildings, retail units, industrial units and mixed-use developments built to
                             specification, on time and on budget.</p>
                     </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/civil.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🧱</span>
+                    <div class="srv-card fade-up">
+                        <div class="srv-img"><img src="images/civil.png" alt="Civil Works"></div>
+                        <span class="srv-num">02</span>
                         <h4>Civil &amp; Structural Works</h4>
-                        <p>Groundworks, foundations, drainage and site preparation. We lay the groundwork every project
+                        <p>Groundworks, foundations, drainage and site preparation. We lay the backbone every project
                             depends on.</p>
                     </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/workers.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">📋</span>
+                    <div class="srv-card fade-up">
+                        <div class="srv-img"><img src="images/workers.png" alt="Project Management"></div>
+                        <span class="srv-num">03</span>
                         <h4>Project Management</h4>
-                        <p>End-to-end programme management, coordinating trades, managing timelines and keeping clients
+                        <p>End-to-end programme leadership — coordinating trades, managing timelines and keeping clients
                             informed at every stage.</p>
                     </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/fitout.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🪟</span>
+                    <div class="srv-card fade-up">
+                        <div class="srv-img"><img src="images/fitout.png" alt="Fit Out"></div>
+                        <span class="srv-num">04</span>
                         <h4>Commercial Fit-Out</h4>
                         <p>Interior fit-outs for retail, office and hospitality environments. We work around your
                             operation to minimise disruption.</p>
                     </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/about.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🔍</span>
+                    <div class="srv-card fade-up">
+                        <div class="srv-img"><img src="images/about.png" alt="Feasibility"></div>
+                        <span class="srv-num">05</span>
                         <h4>Feasibility &amp; Planning</h4>
-                        <p>Pre-construction advice, site assessments and planning support to help clients understand
-                            costs, risks and programme before committing.</p>
+                        <p>Pre-construction advice, site assessments and planning support to understand costs, risks and
+                            programme before committing.</p>
                     </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/hero_construction.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">♻️</span>
+                    <div class="srv-card fade-up">
+                        <div class="srv-img"><img src="images/hero_construction.png" alt="Refurbishment"></div>
+                        <span class="srv-num">06</span>
                         <h4>Refurbishment &amp; Upgrade</h4>
-                        <p>Breathing new life into tired commercial spaces. Structural upgrades, modernisation and full
+                        <p>Breathing new life into tired commercial spaces — structural upgrades, modernisation and full
                             refurbishment programmes.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="cta-strip">
-        <div class="container">
-            <div class="cta-inner">
-                <div>
-                    <h2>Have a Construction Project in Mind?</h2>
-                    <p>Tell us about it — we're happy to discuss feasibility and next steps.</p>
-                </div>
-                <a href="contact.html" class="btn btn-copper">Contact Us</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="site-footer">
-        <div class="footer-top">
+        <section style="background:var(--black-2); border-top:1px solid var(--border); padding:96px 0;">
             <div class="container">
-                <div class="footer-grid">
-                    <div>
-                        <div class="footer-brand">Collabera<br><span class="sub">International Limited</span></div>
-                        <p class="footer-desc">A UK holding company with operations in commercial construction and
-                            wholesale soft drinks distribution. Registered in England &amp; Wales.</p>
-                        <p class="company-number">Company No. 16050464</p>
+                <div class="cta-block fade-up">
+                    <div class="big-cta">
+                        <h2>Have a project<br><span style="color:var(--lime);">in mind?</span></h2>
+                        <p>Tell us about it — we're happy to discuss feasibility and next steps.</p>
                     </div>
-                    <div class="footer-col">
-                        <h5>Navigation</h5>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="construction.html">Construction</a></li>
-                            <li><a href="trading.html">Trading &amp; Distribution</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h5>Legal</h5>
-                        <ul>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms &amp; Conditions</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h5>Contact</h5>
-                        <div class="footer-contact-item"><span class="icon">📍</span><span>Flat 9 Gainsborough
-                                Court<br>164 Kingston Road<br>Epsom, England, KT19 0SE</span></div>
-                        <div class="footer-contact-item"><span class="icon">✉</span><a
-                                href="mailto:info@collaberaint.com"
-                                style="color:rgba(255,255,255,0.65);">info@collaberaint.com</a></div>
-                    </div>
+                    <a href="contact.html" class="btn btn-lime" style="font-size:1rem; padding:16px 36px;">Discuss a
+                        Project →</a>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> Collabera International Limited. All rights reserved.</p>
-                <div class="footer-legal-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms
-                        &amp; Conditions</a></div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-brand-text">Collabera International<br><span>Company No. 16050464 · Registered in
+                            England &amp; Wales</span></div>
+                    <div class="footer-links"><a href="about.html">About</a><a
+                            href="construction.html">Construction</a><a href="trading.html">Trading</a><a
+                            href="testimonials.html">Testimonials</a><a href="contact.html">Contact</a><a
+                            href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+                    <p class="footer-legal">&copy; <span id="year"></span> Collabera International Limited</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="js/collabera.js"></script>
 </body>
 

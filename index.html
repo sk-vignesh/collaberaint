@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collabera International Limited — Construction & Trading</title>
+    <title>Collabera International — Construction &amp; Wholesale Trading</title>
     <meta name="description"
-        content="Collabera International Limited — a UK holding company active in commercial construction and wholesale soft drinks distribution.">
+        content="Collabera International Limited — UK holding company active in commercial construction and wholesale soft drinks distribution.">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/collabera.css">
 </head>
@@ -20,236 +20,208 @@
 
     <!-- PRELOADER -->
     <div class="preloader" id="preloader">
-        <div class="preloader-brand">Collabera <span>International</span></div>
-        <div class="preloader-sub">Construction &amp; Trading</div>
-        <div class="preloader-bar">
-            <div class="preloader-bar-inner"></div>
+        <div class="pl-brand">Collabera <span>Int.</span></div>
+        <div class="pl-sub">Construction &amp; Trading</div>
+        <div class="pl-bar">
+            <div class="pl-bar-fill"></div>
         </div>
     </div>
 
-    <!-- MOBILE NAV -->
-    <div class="mobile-nav-overlay" id="mobileNav">
-        <button class="mobile-nav-close" id="mobileNavClose">&times;</button>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <a href="index.html" class="sb-brand">Collabera<br><span class="sb-int">International</span></a>
+        <nav class="sb-nav">
+            <span class="sb-label">Menu</span>
+            <a href="index.html" class="active"><span class="sb-dot"></span>Home</a>
+            <a href="about.html"><span class="sb-dot"></span>About</a>
+            <div class="sb-divider"></div>
+            <span class="sb-label">Our Work</span>
+            <a href="construction.html"><span class="sb-dot"></span>Construction</a>
+            <a href="trading.html"><span class="sb-dot"></span>Trading</a>
+            <div class="sb-divider"></div>
+            <a href="testimonials.html"><span class="sb-dot"></span>Testimonials</a>
+            <a href="contact.html"><span class="sb-dot"></span>Contact</a>
+        </nav>
+        <div class="sb-cta">
+            <a href="contact.html" class="btn btn-lime"
+                style="width:100%; justify-content:center; font-size:0.78rem;">Get in Touch →</a>
+        </div>
+        <p class="sb-contact">info@collaberaint.com<br>Co. No. 16050464</p>
+    </aside>
+
+    <!-- MOBILE MENU -->
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </button>
+    <div class="mobile-overlay" id="mobileOverlay">
+        <span class="mo-tag">Navigation</span>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <div class="mo-sep"></div>
         <a href="construction.html">Construction</a>
         <a href="trading.html">Trading</a>
+        <div class="mo-sep"></div>
         <a href="testimonials.html">Testimonials</a>
         <a href="contact.html">Contact</a>
+        <p class="mo-contact">info@collaberaint.com</p>
     </div>
 
-    <!-- HEADER -->
-    <header class="site-header" id="siteHeader">
-        <div class="container">
-            <nav class="nav-inner">
-                <a href="index.html" class="brand">Collabera<br><span>International</span></a>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="nav-item">
-                        <a href="#">Our Businesses</a>
-                        <div class="nav-dropdown">
-                            <a href="construction.html">Construction</a>
-                            <a href="trading.html">Trading &amp; Distribution</a>
-                        </div>
-                    </li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="nav-toggle" id="navToggle" aria-label="Open menu">
-                    <span></span><span></span><span></span>
-                </button>
-            </nav>
-        </div>
-    </header>
+    <!-- MAIN -->
+    <div class="wrapper">
 
-    <!-- HERO — SPLIT SCREEN -->
-    <section class="hero">
-        <div class="hero-text-panel">
-            <div class="container-hero">
-                <span class="eyebrow hero-eyebrow">UK Holding Company</span>
-                <h1>Building &amp; Trading<br><em>with Purpose</em></h1>
-                <div class="divider"></div>
-                <p>Collabera International Limited is an established UK business with active operations in commercial
-                    construction and the wholesale distribution of soft drinks and beverages.</p>
+        <!-- HERO -->
+        <section class="hero-home">
+            <div class="hero-text">
+                <span class="tag">UK Holding Company</span>
+                <h1>We <span class="lime">Build.</span><br>We <span class="outline">Trade.</span></h1>
+                <p>Collabera International Limited operates at the edge of two industries — commercial construction and
+                    wholesale soft drinks distribution. Based in England, built for the long run.</p>
                 <div class="hero-btns">
-                    <a href="about.html" class="btn btn-copper">Our Story</a>
-                    <a href="contact.html" class="btn btn-outline-copper">Get in Touch</a>
+                    <a href="about.html" class="btn btn-lime">Our Story →</a>
+                    <a href="contact.html" class="btn btn-outline">Get in Touch</a>
                 </div>
             </div>
-        </div>
-        <div class="hero-image-panel">
-            <div class="hero-img active" style="background-image: url('images/hero_construction.png');"></div>
-            <div class="hero-img" style="background-image: url('images/hero_trading.png');"></div>
-            <div class="hero-dots">
-                <button class="hero-dot active" aria-label="Slide 1"></button>
-                <button class="hero-dot" aria-label="Slide 2"></button>
+            <div class="hero-image">
+                <img src="images/hero_construction.png" alt="Collabera construction">
             </div>
-        </div>
-    </section>
+            <div class="hero-scroll-hint"><span class="hero-scroll-line"></span>Scroll to explore</div>
+        </section>
 
-    <!-- INTRO -->
-    <section class="section bg-white">
-        <div class="container">
-            <div class="split-section">
-                <div class="split-img fade-in">
-                    <img src="images/about.png" alt="Collabera International executives">
-                </div>
-                <div class="fade-up">
-                    <span class="eyebrow">Who We Are</span>
-                    <h2>An International Business with <em>British Roots</em></h2>
-                    <div class="divider"></div>
-                    <p class="lead">Founded and registered in England, Collabera International Limited operates at the
-                        intersection of two robust industries — construction and wholesale beverage distribution.</p>
-                    <p>We take a considered, methodical approach to business: building long‑term partnerships,
-                        delivering on commitments, and maintaining the highest professional standards across everything
-                        we do.</p>
-                    <a href="about.html" class="btn btn-green mt-24">Learn More About Us</a>
-                </div>
+        <!-- MARQUEE -->
+        <div class="marquee-wrap" aria-hidden="true">
+            <div class="marquee-track">
+                <span class="marquee-item">Commercial Construction <span>·</span></span>
+                <span class="marquee-item">Soft Drinks Wholesale <span>·</span></span>
+                <span class="marquee-item">UK-Wide Distribution <span>·</span></span>
+                <span class="marquee-item">Civil &amp; Structural Works <span>·</span></span>
+                <span class="marquee-item">Pallet &amp; Bulk Orders <span>·</span></span>
+                <span class="marquee-item">Project Management <span>·</span></span>
+                <span class="marquee-item">Commercial Construction <span>·</span></span>
+                <span class="marquee-item">Soft Drinks Wholesale <span>·</span></span>
+                <span class="marquee-item">UK-Wide Distribution <span>·</span></span>
+                <span class="marquee-item">Civil &amp; Structural Works <span>·</span></span>
+                <span class="marquee-item">Pallet &amp; Bulk Orders <span>·</span></span>
+                <span class="marquee-item">Project Management <span>·</span></span>
             </div>
         </div>
-    </section>
 
-    <!-- DIVISIONS -->
-    <section class="section-sm divisions-strip">
-        <div class="container">
-            <div class="text-center fade-up">
-                <span class="eyebrow">What We Do</span>
-                <h2>Our Two Core Businesses</h2>
-                <div class="divider centered"></div>
-            </div>
-            <div class="division-cards">
-                <div class="division-card fade-up">
-                    <div class="division-card-bg" style="background-image: url('images/construction_banner.png');">
+        <!-- BENTO GRID -->
+        <section class="section">
+            <div class="container-wide">
+                <div class="mb-48 fade-up">
+                    <span class="tag">What We Do</span>
+                    <h2>Two industries.<br>One company.</h2>
+                </div>
+                <div class="bento">
+                    <!-- Construction card — big -->
+                    <div class="bento-item bento-img col-7 row-2 fade-in">
+                        <img src="images/construction_banner.png" alt="Construction">
                     </div>
-                    <div class="division-overlay"></div>
-                    <div class="division-body">
-                        <span class="eyebrow">Division One</span>
-                        <h3>Construction</h3>
-                        <p>Commercial construction, civil works, fit-outs and project management across the UK. A
-                            full-service approach from feasibility to handover.</p>
-                        <a href="construction.html" class="btn btn-outline-white">View Services</a>
+                    <!-- Construction text -->
+                    <div class="bento-item col-5 row-2 bento-dark3 fade-up">
+                        <span class="tag">Division One</span>
+                        <div class="bento-hero-text"
+                            style="height:100%; display:flex; flex-direction:column; justify-content:space-between;">
+                            <div>
+                                <h3>Construction</h3>
+                                <p style="margin-top:12px; font-size:0.9rem;">From groundworks to handover — we deliver
+                                    commercial construction projects across the UK with a focus on quality and
+                                    reliability.</p>
+                            </div>
+                            <a href="construction.html" class="btn btn-outline"
+                                style="align-self:flex-start; margin-top:24px;">View Services →</a>
+                        </div>
+                    </div>
+                    <!-- Trading image -->
+                    <div class="bento-item bento-img col-5 row-2 fade-in">
+                        <img src="images/hero_trading.png" alt="Trading">
+                    </div>
+                    <!-- Trading text -->
+                    <div class="bento-item col-7 row-2 fade-up" style="background:var(--lime);">
+                        <span class="tag" style="color:var(--black-4);">Division Two</span>
+                        <div style="height:100%; display:flex; flex-direction:column; justify-content:space-between;">
+                            <div>
+                                <h3 style="color:var(--black);">Trading &amp; Distribution</h3>
+                                <p style="color:var(--black-4); margin-top:12px; font-size:0.9rem;">Wholesale soft
+                                    drinks and beverages — sourced competitively, distributed UK-wide. Reliable supply,
+                                    every order.</p>
+                            </div>
+                            <a href="trading.html" class="btn btn-ghost"
+                                style="align-self:flex-start; margin-top:24px; background:var(--black); color:var(--white); border-color:var(--black);">View
+                                Products →</a>
+                        </div>
+                    </div>
+                    <!-- UK stat -->
+                    <div class="bento-item col-4 bento-stat fade-up">
+                        <div class="big">UK</div>
+                        <div class="lbl">Registered &amp; Operating</div>
+                    </div>
+                    <!-- 2 divisions stat -->
+                    <div class="bento-item col-4 bento-stat fade-up">
+                        <div class="big">2</div>
+                        <div class="lbl">Active Divisions</div>
+                    </div>
+                    <!-- Link to about -->
+                    <div class="bento-item col-4 bento-link fade-up" style="cursor:pointer;"
+                        onclick="window.location='about.html'">
+                        <h4>About Collabera →</h4>
+                        <span class="bento-arrow">→</span>
                     </div>
                 </div>
-                <div class="division-card fade-up">
-                    <div class="division-card-bg" style="background-image: url('images/trading_banner.png');"></div>
-                    <div class="division-overlay"></div>
-                    <div class="division-body">
-                        <span class="eyebrow">Division Two</span>
-                        <h3>Trading &amp; Distribution</h3>
-                        <p>Wholesale sourcing and UK-wide distribution of soft drinks and non-alcoholic beverages,
-                            serving retailers, hospitality, and catering businesses.</p>
-                        <a href="trading.html" class="btn btn-outline-white">View Products</a>
-                    </div>
+            </div>
+        </section>
+
+        <!-- MISSION -->
+        <section
+            style="padding: 96px 0; background: var(--black-2); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+            <div class="container text-center fade-up">
+                <span class="tag">Our Ethos</span>
+                <h2 style="max-width:780px; margin:0 auto 24px; font-size:clamp(1.8rem,4vw,3.2rem);">"Delivering
+                    results,<br><span style="color:var(--lime);">building relationships,</span><br>trading with
+                    integrity."</h2>
+                <p style="max-width:540px; margin:0 auto; color:var(--grey);">Collabera International exists to create
+                    lasting value — for clients, partners and the communities in which we operate.</p>
+                <div style="margin-top:36px;">
+                    <a href="about.html" class="btn btn-outline">Our Story →</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- STATS -->
-    <section class="stats-section">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item fade-up">
-                    <div class="stat-number">UK</div>
-                    <div class="stat-label">Registered &amp; Operating</div>
-                </div>
-                <div class="stat-item fade-up">
-                    <div class="stat-number">2</div>
-                    <div class="stat-label">Active Business Divisions</div>
-                </div>
-                <div class="stat-item fade-up">
-                    <div class="stat-number">100+</div>
-                    <div class="stat-label">Trade Clients Served</div>
-                </div>
-                <div class="stat-item fade-up">
-                    <div class="stat-number">5★</div>
-                    <div class="stat-label">Client Satisfaction</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PARALLAX MISSION -->
-    <section class="parallax-section" style="background-image: url('images/workers.png');">
-        <div class="container parallax-content text-center">
-            <span class="eyebrow" style="color:rgba(255,255,255,0.65);">Our Mission</span>
-            <h2 style="color:var(--white); max-width:740px; margin:0 auto 20px;">Delivering results, building
-                relationships, and trading with integrity</h2>
-            <div class="divider centered"></div>
-            <p style="color:rgba(255,255,255,0.75); max-width:580px; margin:0 auto;">Collabera International exists to
-                create lasting value — for our clients, our partners, and the communities in which we operate.</p>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="cta-strip">
-        <div class="container">
-            <div class="cta-inner">
-                <div>
-                    <h2>Ready to Work Together?</h2>
-                    <p>Whether you have a construction project or a wholesale trading enquiry, we'd like to hear from
-                        you.</p>
-                </div>
-                <a href="contact.html" class="btn btn-copper">Contact Us Today</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="footer-top">
+        <!-- CTA -->
+        <section class="section">
             <div class="container">
-                <div class="footer-grid">
-                    <div>
-                        <div class="footer-brand">Collabera<br><span class="sub">International Limited</span></div>
-                        <p class="footer-desc">A UK holding company with operations in commercial construction and
-                            wholesale soft drinks distribution. Registered in England &amp; Wales.</p>
-                        <p class="company-number">Company No. 16050464</p>
+                <div class="cta-block fade-up">
+                    <div class="big-cta">
+                        <h2>Ready to<br><span style="color:var(--lime);">work together?</span></h2>
+                        <p>Construction or wholesale trading — we'd like to hear from you.</p>
                     </div>
-                    <div class="footer-col">
-                        <h5>Navigation</h5>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="construction.html">Construction</a></li>
-                            <li><a href="trading.html">Trading &amp; Distribution</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h5>Legal</h5>
-                        <ul>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms &amp; Conditions</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h5>Contact</h5>
-                        <div class="footer-contact-item">
-                            <span class="icon">📍</span>
-                            <span>Flat 9 Gainsborough Court<br>164 Kingston Road<br>Epsom, England, KT19 0SE</span>
-                        </div>
-                        <div class="footer-contact-item">
-                            <span class="icon">✉</span>
-                            <a href="mailto:info@collaberaint.com"
-                                style="color:rgba(255,255,255,0.65);">info@collaberaint.com</a>
-                        </div>
-                    </div>
+                    <a href="contact.html" class="btn btn-lime" style="font-size:1rem; padding:16px 36px;">Contact Us
+                        →</a>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> Collabera International Limited. All rights reserved.</p>
-                <div class="footer-legal-links">
-                    <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms &amp; Conditions</a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-brand-text">Collabera International<br><span>Company No. 16050464 · Registered in
+                            England &amp; Wales</span></div>
+                    <div class="footer-links">
+                        <a href="about.html">About</a>
+                        <a href="construction.html">Construction</a>
+                        <a href="trading.html">Trading</a>
+                        <a href="testimonials.html">Testimonials</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="privacy.html">Privacy</a>
+                        <a href="terms.html">Terms</a>
+                    </div>
+                    <p class="footer-legal">&copy; <span id="year"></span> Collabera International Limited</p>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+
+    </div><!-- /wrapper -->
 
     <script src="js/collabera.js"></script>
 </body>

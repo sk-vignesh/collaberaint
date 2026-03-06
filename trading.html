@@ -4,250 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trading &amp; Distribution — Collabera International Limited</title>
+    <title>Trading &amp; Distribution — Collabera International</title>
     <meta name="description"
         content="Collabera International wholesale soft drinks and beverage distribution across the UK.">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/collabera.css">
 </head>
 
 <body>
-
-    <div class="mobile-nav-overlay" id="mobileNav">
-        <button class="mobile-nav-close" id="mobileNavClose">&times;</button>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="construction.html">Construction</a>
-        <a href="trading.html">Trading</a>
-        <a href="testimonials.html">Testimonials</a>
-        <a href="contact.html">Contact</a>
+    <aside class="sidebar">
+        <a href="index.html" class="sb-brand">Collabera<br><span class="sb-int">International</span></a>
+        <nav class="sb-nav">
+            <span class="sb-label">Menu</span>
+            <a href="index.html"><span class="sb-dot"></span>Home</a>
+            <a href="about.html"><span class="sb-dot"></span>About</a>
+            <div class="sb-divider"></div>
+            <span class="sb-label">Our Work</span>
+            <a href="construction.html"><span class="sb-dot"></span>Construction</a>
+            <a href="trading.html" class="active"><span class="sb-dot"></span>Trading</a>
+            <div class="sb-divider"></div>
+            <a href="testimonials.html"><span class="sb-dot"></span>Testimonials</a>
+            <a href="contact.html"><span class="sb-dot"></span>Contact</a>
+        </nav>
+        <div class="sb-cta"><a href="contact.html" class="btn btn-lime"
+                style="width:100%; justify-content:center; font-size:0.78rem;">Get in Touch →</a></div>
+        <p class="sb-contact">info@collaberaint.com<br>Co. No. 16050464</p>
+    </aside>
+    <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+    <div class="mobile-overlay" id="mobileOverlay">
+        <span class="mo-tag">Navigation</span>
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <div class="mo-sep"></div>
+        <a href="construction.html">Construction</a><a href="trading.html">Trading</a>
+        <div class="mo-sep"></div>
+        <a href="testimonials.html">Testimonials</a><a href="contact.html">Contact</a>
+        <p class="mo-contact">info@collaberaint.com</p>
     </div>
 
-    <header class="site-header" id="siteHeader">
-        <div class="container">
-            <nav class="nav-inner">
-                <a href="index.html" class="brand">Collabera<br><span>International</span></a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="nav-item">
-                        <a href="#" class="active">Our Businesses</a>
-                        <div class="nav-dropdown">
-                            <a href="construction.html">Construction</a>
-                            <a href="trading.html" class="active">Trading &amp; Distribution</a>
-                        </div>
-                    </li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="nav-toggle" id="navToggle"
-                    aria-label="Open menu"><span></span><span></span><span></span></button>
-            </nav>
-        </div>
-    </header>
-
-    <div class="page-banner" style="background-image: url('images/trading_banner.png'); padding-top: 72px;">
-        <div class="page-banner-overlay"></div>
-        <div class="page-banner-content container">
-            <span class="eyebrow">Division Two</span>
-            <h1>Trading &amp; Distribution</h1>
-        </div>
-    </div>
-
-    <section class="section bg-white">
-        <div class="container">
-            <div class="split-section">
-                <div class="split-img fade-in">
-                    <img src="images/hero_trading.png" alt="Collabera trading warehouse">
-                </div>
-                <div class="fade-up">
-                    <span class="eyebrow">The Trading Division</span>
-                    <h2>Connecting Brands to <em>British Business</em></h2>
-                    <div class="divider"></div>
-                    <p class="lead">Collabera International's trading arm operates as a wholesale sourcing and
-                        distribution business specialising in soft drinks and non-alcoholic beverages.</p>
-                    <p>We work with producers, importers and brand owners to get their products to market efficiently,
-                        and with retailers, caterers and hospitality businesses to ensure they receive reliable,
-                        competitively priced stock.</p>
-                    <a href="contact.html" class="btn btn-copper mt-24">Make an Enquiry</a>
-                </div>
+    <div class="wrapper">
+        <div class="page-intro" data-bg-text="TRADE"
+            style="background-image: url('images/trading_banner.png'); background-size:cover; background-position:center;">
+            <div
+                style="position:absolute;inset:0;background:linear-gradient(to top,var(--black) 30%,rgba(8,9,13,0.7) 100%);">
             </div>
-        </div>
-    </section>
-
-    <section class="section bg-cream">
-        <div class="container">
-            <div class="text-center mb-48 fade-up">
-                <span class="eyebrow">Product Range</span>
-                <h2>What We Supply</h2>
-                <div class="divider centered"></div>
-                <p style="max-width:580px; margin:0 auto;">We maintain a broad and diverse product range across all key
-                    soft drink categories.</p>
-            </div>
-            <div class="service-cards">
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/drinks_shelf.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🥤</span>
-                        <h4>Carbonated Soft Drinks</h4>
-                        <p>A full range of carbonated beverages — from mainstream brands to independent producers —
-                            sourced at competitive wholesale rates.</p>
-                    </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/hero_trading.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">💧</span>
-                        <h4>Still &amp; Sparkling Water</h4>
-                        <p>Premium and value-tier still and sparkling water for hospitality, office, retail and food
-                            service clients.</p>
-                    </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img"
-                        style="background-image: url('images/drinks_shelf.png'); background-position: right;"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🍊</span>
-                        <h4>Juices &amp; Functional Drinks</h4>
-                        <p>Fruit juices, energy drinks, sports isotonics and wellness beverages — broadening our
-                            clients' product offering across categories.</p>
-                    </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/logistics.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">📦</span>
-                        <h4>Pallet &amp; Bulk Orders</h4>
-                        <p>Full and mixed pallets to suit any order size. We work with independents, groups and
-                            wholesale operators needing flexible ordering.</p>
-                    </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img"
-                        style="background-image: url('images/logistics.png'); background-position: left;"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🚛</span>
-                        <h4>UK-Wide Delivery</h4>
-                        <p>Nationwide distribution through our logistics network. Reliable, tracked, on-time delivery —
-                            every time.</p>
-                    </div>
-                </div>
-                <div class="service-card fade-up">
-                    <div class="service-card-img" style="background-image: url('images/about.png');"></div>
-                    <div class="service-card-body">
-                        <span class="service-card-icon">🤝</span>
-                        <h4>Brand Partnerships</h4>
-                        <p>Looking to distribute your beverage in the UK? We work with producers and brand owners
-                            seeking efficient routes to market.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WHO WE SERVE -->
-    <section class="section bg-green">
-        <div class="container text-center">
-            <span class="eyebrow" style="color:rgba(255,255,255,0.6);">Client Types</span>
-            <h2 style="color:var(--white);">Who We Supply</h2>
-            <div class="divider centered"></div>
-            <div style="display:grid; grid-template-columns: repeat(4,1fr); gap:20px; margin-top:48px;">
-                <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(196,121,58,0.25); border-radius:12px; padding:28px 20px;"
-                    class="fade-up">
-                    <div style="font-size:2rem; margin-bottom:12px;">🏪</div>
-                    <h5 style="color:var(--copper); margin-bottom:8px;">Independent Retailers</h5>
-                    <p style="color:rgba(255,255,255,0.6); font-size:0.87rem; margin:0;">Corner shops, newsagents,
-                        convenience stores and off-licences.</p>
-                </div>
-                <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(196,121,58,0.25); border-radius:12px; padding:28px 20px;"
-                    class="fade-up">
-                    <div style="font-size:2rem; margin-bottom:12px;">🍽️</div>
-                    <h5 style="color:var(--copper); margin-bottom:8px;">Hospitality &amp; Catering</h5>
-                    <p style="color:rgba(255,255,255,0.6); font-size:0.87rem; margin:0;">Restaurants, hotels, cafés and
-                        catering companies.</p>
-                </div>
-                <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(196,121,58,0.25); border-radius:12px; padding:28px 20px;"
-                    class="fade-up">
-                    <div style="font-size:2rem; margin-bottom:12px;">🏭</div>
-                    <h5 style="color:var(--copper); margin-bottom:8px;">Regional Wholesalers</h5>
-                    <p style="color:rgba(255,255,255,0.6); font-size:0.87rem; margin:0;">Cash-and-carry operators and
-                        regional distributors.</p>
-                </div>
-                <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(196,121,58,0.25); border-radius:12px; padding:28px 20px;"
-                    class="fade-up">
-                    <div style="font-size:2rem; margin-bottom:12px;">🏢</div>
-                    <h5 style="color:var(--copper); margin-bottom:8px;">Corporate &amp; Workplace</h5>
-                    <p style="color:rgba(255,255,255,0.6); font-size:0.87rem; margin:0;">Office managers, facilities
-                        teams and corporate event organisers.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="cta-strip">
-        <div class="container">
-            <div class="cta-inner">
-                <div>
-                    <h2>Ready to Place a Wholesale Enquiry?</h2>
-                    <p>Get in touch to discuss your product requirements and volumes.</p>
-                </div>
-                <a href="contact.html" class="btn btn-copper">Contact Us</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="site-footer">
-        <div class="footer-top">
             <div class="container">
-                <div class="footer-grid">
-                    <div>
-                        <div class="footer-brand">Collabera<br><span class="sub">International Limited</span></div>
-                        <p class="footer-desc">A UK holding company with operations in commercial construction and
-                            wholesale soft drinks distribution. Registered in England &amp; Wales.</p>
-                        <p class="company-number">Company No. 16050464</p>
+                <span class="tag">Division Two</span>
+                <h1>Trading &amp;<br>Distribution</h1>
+                <p class="lead" style="margin-top:16px; max-width:520px;">Wholesale soft drinks and beverages sourced
+                    competitively and delivered UK-wide. Reliable supply for retailers, hospitality and caterers.</p>
+            </div>
+        </div>
+
+        <!-- BENTO PRODUCT TYPES -->
+        <section class="section">
+            <div class="container-wide">
+                <div class="mb-48 fade-up"><span class="tag">What We Supply</span>
+                    <h2>Our Product Range</h2>
+                </div>
+                <div class="bento" style="grid-auto-rows:auto;">
+                    <div class="bento-item col-6 row-2 bento-img fade-in" style="min-height:320px;">
+                        <img src="images/drinks_shelf.png" alt="Soft drinks">
                     </div>
-                    <div class="footer-col">
-                        <h5>Navigation</h5>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="construction.html">Construction</a></li>
-                            <li><a href="trading.html">Trading &amp; Distribution</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
+                    <div class="bento-item col-6 fade-up" style="min-height:160px;">
+                        <span class="srv-num">01</span>
+                        <h4>Carbonated Soft Drinks</h4>
+                        <p style="font-size:0.88rem; margin-top:8px; color:var(--grey);">A wide range of carbonated
+                            beverages from established brands and independent producers, at competitive wholesale rates.
+                        </p>
                     </div>
-                    <div class="footer-col">
-                        <h5>Legal</h5>
-                        <ul>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms &amp; Conditions</a></li>
-                        </ul>
+                    <div class="bento-item col-6 fade-up" style="min-height:160px;">
+                        <span class="srv-num">02</span>
+                        <h4>Still &amp; Sparkling Water</h4>
+                        <p style="font-size:0.88rem; margin-top:8px; color:var(--grey);">Premium and budget-tier still
+                            and sparkling water for hospitality, retail and food service sectors.</p>
                     </div>
-                    <div class="footer-col">
-                        <h5>Contact</h5>
-                        <div class="footer-contact-item"><span class="icon">📍</span><span>Flat 9 Gainsborough
-                                Court<br>164 Kingston Road<br>Epsom, England, KT19 0SE</span></div>
-                        <div class="footer-contact-item"><span class="icon">✉</span><a
-                                href="mailto:info@collaberaint.com"
-                                style="color:rgba(255,255,255,0.65);">info@collaberaint.com</a></div>
+                    <div class="bento-item col-4 fade-up bento-lime" style="min-height:200px;">
+                        <span class="srv-num" style="color:var(--black-4);">03</span>
+                        <h4 style="color:var(--black);">Juices &amp; Functional</h4>
+                        <p style="font-size:0.88rem; margin-top:8px; color:var(--black-4);">Fruit juices, energy drinks,
+                            sports drinks and wellness beverages — broadening your product range.</p>
+                    </div>
+                    <div class="bento-item col-4 fade-up" style="min-height:200px;">
+                        <span class="srv-num">04</span>
+                        <h4>Pallet &amp; Bulk Orders</h4>
+                        <p style="font-size:0.88rem; margin-top:8px; color:var(--grey);">Full and mixed pallets. We
+                            cater to independents, groups and wholesale operators needing flexible ordering.</p>
+                    </div>
+                    <div class="bento-item bento-img col-4 row-2 fade-in" style="min-height:200px;">
+                        <img src="images/logistics.png" alt="Logistics">
+                    </div>
+                    <div class="bento-item col-8 fade-up"
+                        style="min-height:200px; display:flex; align-items:center; gap:40px;">
+                        <div>
+                            <span class="srv-num">05 + 06</span>
+                            <h4>UK-Wide Delivery &amp; Brand Partnerships</h4>
+                            <p style="font-size:0.88rem; margin-top:8px; color:var(--grey);">Nationwide distribution
+                                through our logistics network — tracked, reliable, on-time. We also work with producers
+                                seeking UK routes to market.</p>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline" style="flex-shrink:0;">Enquire →</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> Collabera International Limited. All rights reserved.</p>
-                <div class="footer-legal-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms
-                        &amp; Conditions</a></div>
+        </section>
+
+        <!-- CLIENT TYPES -->
+        <section style="background:var(--black-2); border-top:1px solid var(--border); padding:96px 0;">
+            <div class="container">
+                <div class="mb-48 fade-up"><span class="tag">Clients</span>
+                    <h2>Who We Supply</h2>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:1px;">
+                    <div style="display:grid; grid-template-columns:60px 200px 1fr; gap:24px; padding:28px 0; border-bottom:1px solid var(--border); align-items:center;"
+                        class="fade-up">
+                        <span style="font-size:1.6rem;">🏪</span>
+                        <h5>Independent Retailers</h5>
+                        <p style="font-size:0.88rem; margin:0; color:var(--grey);">Corner shops, newsagents, convenience
+                            stores and off-licences seeking competitive wholesale pricing.</p>
+                    </div>
+                    <div style="display:grid; grid-template-columns:60px 200px 1fr; gap:24px; padding:28px 0; border-bottom:1px solid var(--border); align-items:center;"
+                        class="fade-up">
+                        <span style="font-size:1.6rem;">🍽️</span>
+                        <h5>Hospitality &amp; Catering</h5>
+                        <p style="font-size:0.88rem; margin:0; color:var(--grey);">Restaurants, hotels, cafés and
+                            catering companies requiring reliable beverage supply.</p>
+                    </div>
+                    <div style="display:grid; grid-template-columns:60px 200px 1fr; gap:24px; padding:28px 0; border-bottom:1px solid var(--border); align-items:center;"
+                        class="fade-up">
+                        <span style="font-size:1.6rem;">🏭</span>
+                        <h5>Regional Wholesalers</h5>
+                        <p style="font-size:0.88rem; margin:0; color:var(--grey);">Cash-and-carry operations expanding
+                            their range without supply chain complexity.</p>
+                    </div>
+                    <div style="display:grid; grid-template-columns:60px 200px 1fr; gap:24px; padding:28px 0; border-bottom:1px solid var(--border); align-items:center;"
+                        class="fade-up">
+                        <span style="font-size:1.6rem;">🏢</span>
+                        <h5>Corporate &amp; Workplace</h5>
+                        <p style="font-size:0.88rem; margin:0; color:var(--grey);">Facilities managers sourcing
+                            beverages for staff, vending and corporate events.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <section style="padding:0 0 96px; margin-top:96px;">
+            <div class="container">
+                <div class="cta-block fade-up">
+                    <div class="big-cta">
+                        <h2>Ready to place<br><span style="color:var(--lime);">a wholesale order?</span></h2>
+                        <p>Get in touch to discuss requirements and volumes.</p>
+                    </div>
+                    <a href="contact.html" class="btn btn-lime" style="font-size:1rem; padding:16px 36px;">Contact Us
+                        →</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-brand-text">Collabera International<br><span>Company No. 16050464 · Registered in
+                            England &amp; Wales</span></div>
+                    <div class="footer-links"><a href="about.html">About</a><a
+                            href="construction.html">Construction</a><a href="trading.html">Trading</a><a
+                            href="testimonials.html">Testimonials</a><a href="contact.html">Contact</a><a
+                            href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+                    <p class="footer-legal">&copy; <span id="year"></span> Collabera International Limited</p>
+                </div>
+            </div>
+        </footer>
+    </div>
     <script src="js/collabera.js"></script>
 </body>
 
