@@ -2,27 +2,35 @@
   <!-- Background -->
   <rect width="200" height="200" fill="#08090D" rx="24"/>
 
-  <!-- Geometric C-mark: two bold offset C arcs forming a layered mark -->
-  <!-- Outer C -->
-  <path d="M110 44
-             A42 42 0 1 0 110 156
-             L110 142
-             A28 28 0 1 1 110 58
-             Z"
-        fill="#CAFF33"/>
+  <!-- Abstract mark: interlocking bold angular "C" shapes suggesting connection/collaboration -->
+  <!-- Two bracket shapes, offset, forming a linked pair -->
 
-  <!-- Inner accent slit — vertical bar suggesting a building column -->
-  <rect x="97" y="82" width="10" height="36" rx="2" fill="#08090D"/>
+  <!-- Left bracket (big outer C) -->
+  <path d="M 108 44 L 80 44 Q 60 44 60 64 L 60 124 Q 60 144 80 144 L 108 144"
+        fill="none" stroke="#CAFF33" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Small dot accent below icon -->
-  <circle cx="100" cy="168" r="3" fill="#CAFF33"/>
+  <!-- Right bracket (inner reverse C — lighter) -->
+  <path d="M 96 62 L 116 62 Q 130 62 130 76 L 130 112 Q 130 126 116 126 L 96 126"
+        fill="none" stroke="#CAFF33" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
 
-  <!-- COLLABERA text -->
-  <text x="100" y="186"
+  <!-- Connecting link dots -->
+  <circle cx="108" cy="94" r="5" fill="#CAFF33"/>
+
+  <!-- COLLABERA wordmark -->
+  <text x="100" y="166"
         font-family="Georgia, 'Times New Roman', serif"
-        font-size="13"
+        font-size="12.5"
         font-weight="700"
         fill="#FFFFFF"
         text-anchor="middle"
-        letter-spacing="3">COLLABERA</text>
+        letter-spacing="2.5">COLLABERA</text>
+
+  <!-- INTERNATIONAL sub-label -->
+  <text x="100" y="181"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="6.5"
+        font-weight="400"
+        fill="#CAFF33"
+        text-anchor="middle"
+        letter-spacing="3.5">INTERNATIONAL</text>
 </svg>
