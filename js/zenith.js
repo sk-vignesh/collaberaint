@@ -1,4 +1,4 @@
-/* collabera.js — Collabera International v2 */
+﻿/* zenith.js — Zenith Vertex v2 */
 (function () {
     'use strict';
 
